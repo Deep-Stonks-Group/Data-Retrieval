@@ -4,7 +4,7 @@
   "description": "https://cla-assistant.io/Deep-Stonks-Group/data-retrieval",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
