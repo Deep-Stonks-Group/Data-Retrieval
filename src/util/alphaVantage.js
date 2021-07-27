@@ -2,11 +2,9 @@ const axios = require('axios');
 
 const baseUrl = 'https://www.alphavantage.co/query';
 const apiFunction = 'TIME_SERIES_INTRADAY';
-const apiKey = 'WQATOAMO0JKPAHSY';
+const apiKey = ''; //NEED TO SET WHEN USING
 
 const fetchStockData = (req, res) => {
-  console.log('BITCHBITCHBITCH')
-  console.log(req)
   return axios.get(baseUrl, {
       params: {
         function: apiFunction,
